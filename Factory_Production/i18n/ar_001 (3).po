@@ -1,0 +1,199 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* Factory_Production
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-28 14:39+0000\n"
+"PO-Revision-Date: 2025-04-28 17:56+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Language: ar\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: Factory_Production
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+msgid "Additional Notes:"
+msgstr "ملاحظات اضافية :"
+
+#. module: Factory_Production
+#: model:ir.model.fields.selection,name:Factory_Production.selection__factory_production__status__completed
+msgid "Completed"
+msgstr "منجز"
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__factory_name
+msgid "Factory Name"
+msgstr "اسم المصنع"
+
+#. module: Factory_Production
+#: model:ir.ui.menu,name:Factory_Production.factory_root_menu
+msgid "Factory Production"
+msgstr "انتاج المصنع"
+
+#. module: Factory_Production
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+msgid "Factory Production Report"
+msgstr "تقرير انتاج المصنع"
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__id
+msgid "ID"
+msgstr "هوية شخصية"
+
+#. module: Factory_Production
+#: model:ir.model.fields.selection,name:Factory_Production.selection__factory_production__status__in_progress
+msgid "In Progress"
+msgstr "قيد التقدم"
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: Factory_Production
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+msgid "MO Number"
+msgstr "رقم التصنيع"
+
+#. module: Factory_Production
+#: model_terms:ir.ui.view,arch_db:Factory_Production.factory_view_form
+msgid "NOTES"
+msgstr "مسودة"
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__note
+msgid "Notes"
+msgstr "مسودة"
+
+#. module: Factory_Production
+#: model:ir.model.fields.selection,name:Factory_Production.selection__factory_production__status__pending
+msgid "Pending"
+msgstr ""
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__product_name
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+msgid "Product Name"
+msgstr "اسم المنتج"
+
+#. module: Factory_Production
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+#, fuzzy
+msgid "Product Name:"
+msgstr "اسم المنتج"
+
+#. module: Factory_Production
+#: model:ir.actions.act_window,name:Factory_Production.factory_action
+#: model_terms:ir.ui.view,arch_db:Factory_Production.factory_view_tree
+msgid "Production"
+msgstr "الانتاج"
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__production_date
+msgid "Production Date"
+msgstr "تاريخ الانتاج"
+
+#. module: Factory_Production
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+msgid "Production Date:"
+msgstr ""
+
+#. module: Factory_Production
+#: model:ir.actions.report,name:Factory_Production.production_report
+msgid "Production Report"
+msgstr ""
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__production_required
+msgid "Production Required"
+msgstr "تقرير  الانتاج"
+
+#. module: Factory_Production
+#: model:ir.ui.menu,name:Factory_Production.model_name_menu
+msgid "Productions"
+msgstr "الانتاج"
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__qty_produced
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+msgid "Qty Produced"
+msgstr "الكمية المنتجة"
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__ref
+msgid "Ref"
+msgstr ""
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__status
+msgid "Status"
+msgstr "الحالة"
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__prepared
+msgid "The Report is Prepared"
+msgstr "تم اعداد التقرير"
+
+#. module: Factory_Production
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+msgid "The Report is Prepared:"
+msgstr ""
+
+#. module: Factory_Production
+#: model:ir.model.fields,field_description:Factory_Production.field_factory_production__rest
+msgid "The Rest"
+msgstr "الباقي"
+
+#. module: Factory_Production
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+#, fuzzy
+msgid "The Rest of The Production Quantity:"
+msgstr "باقي انتاج "
+
+#. module: Factory_Production
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+#, fuzzy
+msgid "Total Units Production Today:"
+msgstr "اجمالي انتاج الوحدات اليوم"
+
+#. module: Factory_Production
+#: model:ir.model,name:Factory_Production.model_factory_production
+msgid "factory production"
+msgstr "انتاج مصنع"
+
+#. module: Factory_Production
+#: model:ir.ui.menu,name:Factory_Production.factory_menu
+msgid "factory_production"
+msgstr ""
+
+#. module: Factory_Production
+#: model_terms:ir.ui.view,arch_db:Factory_Production.production_report_template
+msgid "status"
+msgstr "الحالة"

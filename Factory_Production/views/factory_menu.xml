@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="factory_root_menu"
+        name="Factory Production"
+        web_icon="Factory_Production,/static/description/icon.png" />
+
+    <menuitem
+        id="factory_menu"
+        name="factory_production"
+        parent="factory_root_menu"/>  
+
+   
+</odoo>

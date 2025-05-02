@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="production_report" model="ir.actions.report">
+        <field name="name">Production Report</field>
+        <field name="model">factory.production</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="binding_model_id" ref="model_factory_production"/>
+        <field name="binding_type">report</field>
+        <field name="report_name">Factory_Production.production_report_template</field>
+    </record>
+
+
+    <template id="production_report_template">
+        <t t-call="web.html_container">
+            <t t-call="web.external_layout">
+                <t t-foreach="docs" t-as="rec">
+                    <header><h1>Factory Production Report</h1></header>
+                    <br/> 
+                     <h4>Product Name: <t t-esc="rec.factory_name"/></h4>
+                     <br/> 
+                     <h4>Production Date: <t t-esc="rec.production_date"/></h4>
+                     <br/> 
+                     <h4>The Report is Prepared: <t t-esc="rec.prepared"/></h4> 
+                     <br/>
+                     <style>
+                        table {
+                        width: 100%;
+                        border: 1px solid #b3add;
+                        border-collapse: collapse;
+                        padding: 5px;
+                        }
+                        table th {
+                        border: 1px solid #b3add;
+                        padding: 5px;
+                        background: #f0f0f0;
+                        color: #313030;
+                        }
+                        table td {
+                        border: 1px solid #b3add;
+                        text-align: center;
+                        padding: 5px;
+                        background: #ffffff;
+                        color: #313030;
+                        }
+                    </style> 
+                    <table>
+                        <thead>
+                            <th>MO Number</th>
+                            <th>Product Name</th>
+                            <th>Qty Produced</th>
+                            <th>status</th>
+                        </thead>
+                        <tbode>
+                            <td><t t-esc="rec.ref"/></td>
+                            <td><t t-esc="rec.product_name"/></td>
+                            <td><t t-esc="rec.qty_produced"/></td>
+                            <td><t t-esc="rec.status"/></td>
+                        </tbode>
+                    </table>
+                    <br/>
+                    <h4>Total Units Production Today: <t t-esc="rec.production_required"/></h4>
+                    <br/>
+                    <h4>The Rest of The Production Quantity: <t t-esc="rec.rest"/></h4>
+                    <br/>
+                    <h4>Additional Notes: <t t-esc="rec.note"/></h4>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>
